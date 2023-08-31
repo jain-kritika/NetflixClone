@@ -1,0 +1,233 @@
+body,html
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+
+.logo {
+    float: left;
+    padding: 16px;
+    color: white;
+}
+
+.logo img {
+    width: 220px;
+    height: 150px;
+}
+
+
+.navbar ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar li {
+    padding: 16px;
+    font-size: larger;
+    color: white;
+}
+
+
+.navbar li a {
+    color: rgb(245, 240, 240);
+    text-decoration: none;
+    font-size: larger;
+}
+
+
+.navbar li a:hover {
+    color: #e0949e;
+}
+
+button {
+    background-color: #d02a2a;
+    padding: 5px;
+    border-radius: 0.50rem;   
+}
+
+.container h1{
+    border: 2px solid #e70c0c; /* Border with a width of 2px and black color */
+    padding: 30px; /* Add padding around the content within the border */
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+body {
+    position: relative;
+    background: url('imgs/bg-img.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+body::before {
+    content: ''; /* Create a pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Transparent black background */
+    transition: background 0.3s ease; /* Add transition for smooth effect */
+    pointer-events: none; /* Ensure the pseudo-element doesn't interfere with content */
+}
+
+body:hover::before {
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black background on hover */
+}
+
+.container
+{
+    padding: 70px 45px;
+    width: 950px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.container .email
+{
+    width: 1000px;
+    margin: auto;
+}
+.container .email input
+{
+    width: 450px;
+    height: 40px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+}
+.container .email button
+{
+    margin: auto;
+    height: 83px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-left: -3px;
+}
+
+.cont
+{
+  margin:50px;
+  padding: 100px;
+  background-image: url(imgs/cont-Img1);
+}
+
+
+.cont h1,p{
+  padding-right: 100px;
+  padding-top: 100px;
+  margin: 0px;
+}
+
+.cont h1{
+    padding-top: 30px;
+    font-size: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont p{
+    font-size: 30px;
+    padding-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont2
+{
+  background-color: black;
+  margin:100px;
+  padding: 100px;
+  background-image: url(imgs/cont-img2);
+}
+
+.cont2 h1{
+    font-size: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont2 p{
+    font-size: 30px;
+    padding-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont3
+{
+  background-color: black;
+  margin:100px;
+  padding: 100px;
+  background-image: url(imgs/img-5);
+}
+
+.cont3 p{
+    font-size: 30px;
+    padding-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.cont3 h1{
+    font-size: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
